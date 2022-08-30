@@ -10,10 +10,10 @@ from matplotlib import pyplot as plt
 from IPython.display import display, Image
 
 #creating facecascade
-face_cascade = cv2.CascadeClassifier("D:\\Nishi\\Masters\\SEM III\\Project\\Cosmoshop\\client\\static\\resources\\haarcascade_frontalface_default.xml")
-display(Image(filename='D:\\Nishi\Masters\\SEM III\\Project\\Cosmoshop\client\static\\images\\face4.jpg'))
+face_cascade = cv2.CascadeClassifier("D:\\Ammaji\\Project\\Cosmoshop\\client\\static\\resources\\haarcascade_frontalface_default.xml")
+display(Image(filename='D:\\Ammaji\\Project\\Cosmoshop\client\static\\images\\face4.jpg'))
 #loading image to matrix
-img = cv2.imread("D:\\Nishi\Masters\\SEM III\\Project\\Cosmoshop\client\static\\images\\face4.jpg")
+img = cv2.imread("D:\\Ammaji\\Project\\Cosmoshop\client\static\\images\\face4.jpg")
 
 #converting into grayscale image
 gray_img = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
@@ -32,10 +32,10 @@ else:
 
 
 #creating facecascade
-face_cascade = cv2.CascadeClassifier("D:\\Nishi\\Masters\\SEM III\\Project\\Cosmoshop\\client\\static\\resources\\haarcascade_frontalface_default.xml")
-display(Image(filename='D:\\Nishi\Masters\\SEM III\\Project\\Cosmoshop\client\static\\images\\Wrinkle Face2.jpg'))
+face_cascade = cv2.CascadeClassifier("D:\\Ammaji\\Project\\Cosmoshop\\client\\static\\resources\\haarcascade_frontalface_default.xml")
+display(Image(filename='D:\\Ammaji\\Project\\Cosmoshop\client\static\\images\\Wrinkle Face2.jpg'))
 #loading image to matrix
-img = cv2.imread("D:\\Nishi\Masters\\SEM III\\Project\\Cosmoshop\client\static\\images\\Wrinkle Face2.jpg")
+img = cv2.imread("D:\\Ammaji\\Project\\Cosmoshop\client\static\\images\\Wrinkle Face2.jpg")
 
 #converting into grayscale image
 gray_img = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
